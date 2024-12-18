@@ -115,9 +115,31 @@ You can also import accounts directly via the command line by running the follow
 Replace `your_file.csv` with the path to the CSV file.
 
 ## Running Tests
-To run the tests for this application, execute the following command:
+To run the tests for this application, execute the following command directly via the terminal:
 
 `python manage.py test`
 
-This will run all test cases to ensure the application is functioning as expected.
+This will:
+- Run all test cases to ensure the application is functioning as expected.
+![Screenshot (83)](https://github.com/user-attachments/assets/7359d77e-c79f-42dd-ae66-a3fe247e805b)
 
+
+## Running Tests with Coverage
+If you want to run the test cases and check how much of the codebase is covered by the tests (coverage percentage), use this command:
+
+`coverage run manage.py test && coverage report`
+
+This will:
+- Run all test cases.
+- Show a report with the coverage percentage.
+![Screenshot (84)](https://github.com/user-attachments/assets/8188ceeb-a945-4682-94c4-8b3fd500527a)
+
+- #### To generate a detailed coverage report as an HTML file
+- Make sure you have the coverage package installed. If not, install it using:
+- `pip install coverage`
+- Then run this command after the tests: `coverage html`
+![Screenshot (86)](https://github.com/user-attachments/assets/f410e44d-e01b-4fac-a175-a4783d9e15d5)
+
+This will:
+- Generate a detailed coverage report as an HTML file
+![Screenshot (85)](https://github.com/user-attachments/assets/056880e2-85af-4b67-bb07-091efe834d65)
