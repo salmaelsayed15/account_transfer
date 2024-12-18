@@ -42,43 +42,43 @@ account_number,holder_name,balance
 ## Running the Application With Docker Compose
 ### 1. Clone the repository:
 
-git clone https://github.com/salmaelsayed15/account_transfer.git
-cd account_transfer
+`git clone https://github.com/salmaelsayed15/account_transfer.git`
+`cd account_transfer`
 
 ### 2. Build and start the application using Docker Compose:
 
-docker-compose up --build
+`docker-compose up --build`
 
 ### 3. Open your browser and navigate to:
 
 http://localhost:8000/
 
 ### 4. Access the following routes in your browser or use an API testing tool (e.g., Postman):
-POST /import/ - Import accounts from a CSV/JSON/XSLX file.
-GET /accounts/ - View all accounts.
-GET /accounts/{id}/ - View account by ID.
-POST /transfer/ - Transfer funds between accounts.
+- POST /import/ - Import accounts from a CSV/JSON/XSLX file.
+- GET /accounts/ - View all accounts.
+- GET /accounts/{id}/ - View account by ID.
+- POST /transfer/ - Transfer funds between accounts.
 
 ### 5. Importing Accounts
 You can import accounts using either of these two methods:
 
-### a. API Route - POST /import/
+#### a. API Route - POST /import/
 
 Send a POST request with a CSV/JSON/XSLX file containing account data to the /import/ route.
 
 
-### b. Command Line - python manage.py import_accounts
+#### b. Command Line - python manage.py import_accounts
 
 You can also import accounts directly via the command line by running the following command:
 
-python manage.py import_accounts your_file.csv
+`python manage.py import_accounts your_file.csv`
 
-Replace your_file.csv with the path to the CSV file.
+Replace `your_file.csv` with the path to the CSV file.
 
 ## Running Tests
 To run the tests for this application, execute the following command:
 
-python manage.py test
+`python manage.py test`
 
 This will run all test cases to ensure the application is functioning as expected.
 
