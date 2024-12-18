@@ -57,10 +57,10 @@ http://localhost:8000/
 
 ### 4. Access the following routes in your browser or use an API testing tool (e.g., Postman):
 - POST `/import/` - Import accounts from a CSV/JSON/XSLX file.
-<p>
-  <img src="https://github.com/user-attachments/assets/d393c15e-00e2-4487-a4d0-1c8f13e2fed6" width="400" />
-  <img src="https://github.com/user-attachments/assets/e8f0fa98-2107-47f1-8161-3a1b7d08e88c" width="400" />
-  <img src="https://github.com/user-attachments/assets/aaa4039b-4062-4a52-bc11-b19c9fc4afe2" width="400" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d393c15e-00e2-4487-a4d0-1c8f13e2fed6" width="600" />
+  <img src="https://github.com/user-attachments/assets/e8f0fa98-2107-47f1-8161-3a1b7d08e88c" width="600" />
+  <img src="https://github.com/user-attachments/assets/aaa4039b-4062-4a52-bc11-b19c9fc4afe2" width="600" />
 </p>
 
 
