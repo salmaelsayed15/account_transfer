@@ -59,22 +59,23 @@ http://localhost:8000/
 - POST `/import/` - Import accounts from a CSV/JSON/XSLX file.
 <p align="center">
   <div>
-    <strong>Import CSV</strong><br />
-    <img src="https://github.com/user-attachments/assets/d393c15e-00e2-4487-a4d0-1c8f13e2fed6" width="600" />
+    <strong>Import CSV</strong><br /> 
+    <img src="https://github.com/user-attachments/assets/d393c15e-00e2-4487-a4d0-1c8f13e2fed6" width="600" /> <br /> <br /> 
   </div>
   <div>
     <strong>Import JSON</strong><br />
-    <img src="https://github.com/user-attachments/assets/e8f0fa98-2107-47f1-8161-3a1b7d08e88c" width="600" />
+    <img src="https://github.com/user-attachments/assets/e8f0fa98-2107-47f1-8161-3a1b7d08e88c" width="600" /> <br /> <br />
   </div>
   <div>
     <strong>Import XSLX</strong><br />
-    <img src="https://github.com/user-attachments/assets/aaa4039b-4062-4a52-bc11-b19c9fc4afe2" width="600" />
+    <img src="https://github.com/user-attachments/assets/aaa4039b-4062-4a52-bc11-b19c9fc4afe2" width="600" /> <br /> <br />
   </div>
 </p>
 
 
+- GET /accounts/ - View all accounts.  **Note:** You need to import a file first to be able to view accounts
+  ![Screenshot (74)](https://github.com/user-attachments/assets/59f12ee2-051d-4089-9bcb-73ac02f68582)
 
-- GET /accounts/ - View all accounts.
 - GET /accounts/{id}/ - View account by ID.
 - POST /transfer/ - Transfer funds between accounts.
 
