@@ -24,19 +24,19 @@ account_number,holder_name,balance
 67890,Alice Smith,300.00
 
 ### 2. View Accounts
-**Route:** /accounts/
-**Method:** GET
-**Description:** Retrieve a list of all accounts with their details, such as account number, holder name, and balance.
+- **Route:** /accounts/
+- **Method:** GET
+- **Description:** Retrieve a list of all accounts with their details, such as account number, holder name, and balance.
 
 ### 3. View Account by ID
-**Route:** /accounts/{id}/
-**Method:** GET
-**Description:** Retrieve the details of a specific account using its account ID.
+- **Route:** /accounts/{id}/
+- **Method:** GET
+- **Description:** Retrieve the details of a specific account using its account ID.
 
 ### 4. Transfer Funds
-**Route:** /transfer/
-**Method:** POST
-**Description:** Initiate a transfer of funds between two accounts.
+- **Route:** /transfer/
+- **Method:** POST
+- **Description:** Initiate a transfer of funds between two accounts.
 
 
 ## Running the Application With Docker Compose
