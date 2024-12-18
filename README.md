@@ -73,24 +73,28 @@ http://localhost:8000/
 </p>
 
 
+
 - GET `/accounts/` - View all accounts.
--- **Note:** You need to import a file first to be able to view accounts
+-  **Note:** You need to import a file first to be able to view accounts
 ![Screenshot (82)](https://github.com/user-attachments/assets/835f0703-e8ca-4e2d-80b2-2fe7689b7e62)
+
 
 
 - GET `/accounts/{id}/` - View account by ID.  
   ![Screenshot (75)](https://github.com/user-attachments/assets/dcc314c2-94bf-425b-8017-6fc9b4ef75cb)
 
 
+
 - POST `/transfer/` - Transfer funds between accounts.
-  -- **Success**
+-  **Success**
 ![Screenshot (76)](https://github.com/user-attachments/assets/987e1989-3319-4868-aab7-8142303f7c77)
 
 ![Screenshot (80)](https://github.com/user-attachments/assets/a574b89c-d850-4364-be53-8c3079caa690)
-  -- **Fail**
+-  **Failure**
 ![Screenshot (78)](https://github.com/user-attachments/assets/891e857f-7030-4335-953a-b10a2070ba00)
 
 ![Screenshot (79)](https://github.com/user-attachments/assets/42005e25-c289-4764-af4b-409e7d4d2231)
+
 
 
 ### 5. Importing Accounts
