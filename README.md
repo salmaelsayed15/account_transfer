@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# account_transfer
-A Django-based web application to facilitate transferring funds between accounts, with support for importing accounts via CSV/JSON/XSLX files.
-=======
 # Django Fund Transfer Web Application
 
 This Django-based web application facilitates transferring funds between accounts. It also supports importing accounts via CSV/JSON/XSLX, viewing accounts, getting account details, and performing fund transfers. Below is the documentation for how to run the app, interact with the API routes, and use the import feature.
@@ -10,7 +6,7 @@ This Django-based web application facilitates transferring funds between account
 
 - **Import Accounts**: Import account details from CSV/JSON/XSLX files either via an API route or command line.
 - **View Accounts**: View a list of all accounts and their balances.
-- **List Account Detail** View account detail by account ID
+- **List Account Detail** View account details by account ID
 - **Transfer Funds**: Transfer funds between accounts.
 
 ---
@@ -60,10 +56,10 @@ This Django-based web application facilitates transferring funds between account
 http://localhost:8000/
 
 ### 4. Access the following routes in your browser or use an API testing tool (e.g., Postman):
-- POST /import/ - Import accounts from a CSV/JSON/XSLX file.
-- GET /accounts/ - View all accounts.
-- GET /accounts/{id}/ - View account by ID.
-- POST /transfer/ - Transfer funds between accounts.
+- POST `/import/` - Import accounts from a CSV/JSON/XSLX file.
+- GET `/accounts/` - View all accounts.
+- GET `/accounts/{id}/` - View account by ID.
+- POST `/transfer/` - Transfer funds between accounts.
 
 ### 5. Importing Accounts
 You can import accounts using either of these two methods:
@@ -88,4 +84,3 @@ To run the tests for this application, execute the following command:
 
 This will run all test cases to ensure the application is functioning as expected.
 
->>>>>>> origin/master
