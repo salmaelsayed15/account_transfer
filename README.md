@@ -19,9 +19,11 @@ This Django-based web application facilitates transferring funds between account
 - **Description:** This endpoint allows you to import accounts from a CSV/JSON/XSLX file.
 
 **CSV Format Example:**
-account_number,holder_name,balance
-12345,John Doe,500.00
-67890,Alice Smith,300.00
+| account_number | holder_name   | balance |
+|----------------|---------------|---------|
+| 12345          | John Doe      | 500.00  |
+| 67890          | Alice Smith   | 300.00  |
+
 
 ### 2. View Accounts
 - **Route:** `/accounts/`
