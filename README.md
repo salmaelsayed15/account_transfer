@@ -60,22 +60,22 @@ http://localhost:8000/
 <p align="center">
   <div>
     <strong>Import CSV</strong><br /> 
-    <img src="https://github.com/user-attachments/assets/d393c15e-00e2-4487-a4d0-1c8f13e2fed6" width="600" /> <br /> <br /> 
+    <img src="https://github.com/user-attachments/assets/d393c15e-00e2-4487-a4d0-1c8f13e2fed6" width="800" /> <br /> <br /> 
   </div>
   <div>
     <strong>Import JSON</strong><br />
-    <img src="https://github.com/user-attachments/assets/e8f0fa98-2107-47f1-8161-3a1b7d08e88c" width="600" /> <br /> <br />
+    <img src="https://github.com/user-attachments/assets/e8f0fa98-2107-47f1-8161-3a1b7d08e88c" width="800" /> <br /> <br />
   </div>
   <div>
     <strong>Import XSLX</strong><br />
-    <img src="https://github.com/user-attachments/assets/aaa4039b-4062-4a52-bc11-b19c9fc4afe2" width="600" /> <br /> <br />
+    <img src="https://github.com/user-attachments/assets/aaa4039b-4062-4a52-bc11-b19c9fc4afe2" width="800" /> <br /> <br />
   </div>
 </p>
 
 
 - GET `/accounts/` - View all accounts.
-  **Note:** You need to import a file first to be able to view accounts
-  ![Screenshot (68)](https://github.com/user-attachments/assets/ad11cdef-a019-44ac-acc3-af0d6e6208c4)
+**Note:** You need to import a file first to be able to view accounts
+![Screenshot (81)](https://github.com/user-attachments/assets/3e3d8950-c07d-422b-a36a-90c6664d008d)
 
 
 - GET `/accounts/{id}/` - View account by ID.
