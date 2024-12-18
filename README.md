@@ -16,7 +16,7 @@ This Django-based web application facilitates transferring funds between account
 ### 1. Import Accounts
 - **Route:** `/import/`  
 - **Method:** `POST`  
-- **Description:** This endpoint allows you to import accounts from a CSV file.
+- **Description:** This endpoint allows you to import accounts from a CSV/JSON/XSLX file.
 
 **CSV Format Example:**
 account_number,holder_name,balance
