@@ -4,9 +4,9 @@ This Django-based web application facilitates transferring funds between account
 
 ## Features
 
-- **Import Accounts**: Import account details from CSV files either via an API route or command line.
+- **Import Accounts**: Import account details from CSV/JSON/XSLX files either via an API route or command line.
 - **View Accounts**: View a list of all accounts and their balances.
-- **List Account Detail**" View account detail by account ID
+- **List Account Detail** View account detail by account ID
 - **Transfer Funds**: Transfer funds between accounts.
 
 ---
