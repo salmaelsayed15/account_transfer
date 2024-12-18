@@ -1,0 +1,17 @@
+{% extends "accounts/base.html" %}
+
+{% block title %}Account Details{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Account Information</h1>
+    <div class="card mx-auto" style="width: 50%; background-color: #f8f9fa; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <div class="card-body">
+            <p><strong>Account Holder:</strong> {{ account.account_holder_name }}</p>
+            <p><strong>Account Number:</strong> {{ account.account_number }}</p>
+            <p><strong>Balance:</strong> ${{ account.balance }}</p>
+            <a href="{% url 'account-list' %}" class="btn btn-primary mt-3">Back to Account List</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

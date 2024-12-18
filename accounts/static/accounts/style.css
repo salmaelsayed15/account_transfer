@@ -1,0 +1,72 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+/* Consistency on Links */
+a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #5bc0de;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #31a2c8; /* Slightly darker blue for hover */
+}
+
+/* Flash Messages */
+.alert {
+    margin: 10px auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Card Component for Form */
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds subtle depth */
+}
+
+/* Input and Button Styling */
+input, button {
+    transition: all 0.3s ease;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #5bc0de; /* Matches the button color */
+    border-color: #5bc0de;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Rounded buttons */
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #31a2c8; /* Slightly darker blue for hover effect */
+}
+
+/* Form Fields: Focus Effect */
+input:focus, select:focus, textarea:focus {
+    border-color: #5bc0de;
+    background-color: #e9f7fb; /* Light background effect */
+    box-shadow: 0 0 5px rgba(91, 192, 222, 0.8); /* Subtle focus outline */
+}
+
+

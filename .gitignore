@@ -1,0 +1,14 @@
+myenv/ # Virtual environments
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Editor & IDE settings
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+

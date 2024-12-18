@@ -1,0 +1,27 @@
+[
+    {
+        "ID": "cc26b56c-36f6-41f1-b689-d1d5065b95af",
+        "Name": "Joy Dean",
+        "Balance": 4497.22
+    },
+    {
+        "ID": "be6acfdc-cae1-4611-b3b2-dfb5167ba5fe",
+        "Name": "Bryan Rice",
+        "Balance": 2632.76
+    },
+    {
+        "ID": "73fc7abc-445b-469c-994b-ecc65a427c6b",
+        "Name": "Sophia Brown",
+        "Balance": 5982.55
+    },
+    {
+        "ID": "120f33e3-a6eb-4db6-9899-a7357f3e77bb",
+        "Name": "Ethan Clark",
+        "Balance": 1225.35
+    },
+    {
+        "ID": "67b6a90a-9b44-46d4-a6de-9456752a5138",
+        "Name": "Olivia Green",
+        "Balance": 8459.90
+    }
+]
