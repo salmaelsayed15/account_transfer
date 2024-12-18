@@ -57,6 +57,8 @@ http://localhost:8000/
 
 ### 4. Access the following routes in your browser or use an API testing tool (e.g., Postman):
 - POST /import/ - Import accounts from a CSV/JSON/XSLX file.
+- ![Screenshot (70)](https://github.com/user-attachments/assets/152e1ad2-2115-4635-a04b-d0fe0e99c281)
+
 - GET /accounts/ - View all accounts.
 - GET /accounts/{id}/ - View account by ID.
 - POST /transfer/ - Transfer funds between accounts.
