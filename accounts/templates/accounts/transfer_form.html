@@ -1,0 +1,54 @@
+{% extends "accounts/base.html" %}
+
+{% block title %}Transfer Funds{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <!-- Transfer Form Title -->
+    <h1 class="text-center mb-4">Transfer Funds</h1>
+    
+    <div class="card mx-auto" style="width: 60%; background-color: #f8f9fa; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <div class="card-body">
+
+            <!-- Form Structure -->
+            <form method="POST">
+                {% csrf_token %}
+                
+                <!-- From Account -->
+                <div class="mb-3">
+                    <label for="from_account" class="form-label">From Account:</label>
+                    <input type="text" id="from_account" name="from_account" class="form-control" required>
+                </div>
+
+                <!-- To Account -->
+                <div class="mb-3">
+                    <label for="to_account" class="form-label">To Account:</label>
+                    <input type="text" id="to_account" name="to_account" class="form-control" required>
+                </div>
+
+                <!-- Amount -->
+                <div class="mb-3">
+                    <label for="amount" class="form-label">Amount:</label>
+                    <input type="number" id="amount" name="amount" step="0.01" class="form-control" required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary w-100">Transfer</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Flash Message Alerts -->
+    <div class="mt-4">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} mt-3" role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+{% endblock %}
+
+
