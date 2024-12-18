@@ -1,6 +1,6 @@
 # Django Fund Transfer Web Application
 
-This Django-based web application facilitates transferring funds between accounts. It also supports importing accounts via CSV, viewing accounts, and performing fund transfers. Below is the documentation for how to run the app, interact with the API routes, and use the CSV import feature.
+This Django-based web application facilitates transferring funds between accounts. It also supports importing accounts via CSV/JSON/XSLX, viewing accounts, getting account details, and performing fund transfers. Below is the documentation for how to run the app, interact with the API routes, and use the import feature.
 
 ## Features
 
