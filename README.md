@@ -56,8 +56,13 @@ This Django-based web application facilitates transferring funds between account
 http://localhost:8000/
 
 ### 4. Access the following routes in your browser or use an API testing tool (e.g., Postman):
-- POST /import/ - Import accounts from a CSV/JSON/XSLX file.
-- ![Screenshot (70)](https://github.com/user-attachments/assets/152e1ad2-2115-4635-a04b-d0fe0e99c281)
+- POST `/import/` - Import accounts from a CSV/JSON/XSLX file.
+  #### Import CSV
+![Import CSV](https://github.com/user-attachments/assets/d393c15e-00e2-4487-a4d0-1c8f13e2fed6)
+ #### Import JSON
+![Import JSON](https://github.com/user-attachments/assets/e8f0fa98-2107-47f1-8161-3a1b7d08e88c)
+ #### Import XSLX
+![Import XSLX](https://github.com/user-attachments/assets/aaa4039b-4062-4a52-bc11-b19c9fc4afe2)
 
 - GET /accounts/ - View all accounts.
 - GET /accounts/{id}/ - View account by ID.
