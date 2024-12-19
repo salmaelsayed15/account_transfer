@@ -6,7 +6,7 @@ This Django-based web application facilitates transferring funds between account
 
 - **Import Accounts**: Import account details from CSV/JSON/XSLX files either via an API route or command line.
 - **View Accounts**: View a list of all accounts and their balances.
-- **List Account Detail** View account detail by account ID
+- **List Account Detail**: View account detail by account ID
 - **Transfer Funds**: Transfer funds between accounts.
 
 ---
@@ -45,6 +45,7 @@ This Django-based web application facilitates transferring funds between account
 ### 1. Clone the repository:
 
 `git clone https://github.com/salmaelsayed15/account_transfer.git`
+
 `cd account_transfer`
 
 ### 2. Build and start the application using Docker Compose:
